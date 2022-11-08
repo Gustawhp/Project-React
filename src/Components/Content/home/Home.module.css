@@ -1,0 +1,16 @@
+.sectionHome {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1250px;
+    width: 100%;
+  }
+
+@media (max-width: 1000px) {
+  .sectionHome{ 
+    height: auto;
+  }
+}

@@ -1,0 +1,15 @@
+.sectionRealization {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1250px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .sectionRealization {
+    height: auto;
+  }
+}

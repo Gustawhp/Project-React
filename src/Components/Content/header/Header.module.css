@@ -1,0 +1,30 @@
+.header {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+
+.header div {
+  color: azure;
+  display: flex;
+  flex-flow: column;
+  font-size: 2rem;
+  justify-content: center;
+  line-height: 1.5;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+  .logo {
+    text-align: center;
+  }
+}

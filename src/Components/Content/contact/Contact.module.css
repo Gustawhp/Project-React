@@ -1,0 +1,17 @@
+.sectionContact {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    max-width: 1250px;
+    margin-bottom: 100px;
+  }
+
+  @media (max-width: 1000px) {
+    .sectionContact {
+      height: auto;
+    }
+  }

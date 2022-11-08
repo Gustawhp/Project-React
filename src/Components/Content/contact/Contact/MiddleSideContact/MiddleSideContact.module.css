@@ -1,0 +1,28 @@
+.middleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.middleContainer p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  line-height: 2.5;
+}
+
+@media (max-width: 1000px) {
+  
+  .middleContainer {
+    margin: 2rem auto 2rem;
+    width: auto;
+  }
+  
+  .middleContainer p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+  }
+}

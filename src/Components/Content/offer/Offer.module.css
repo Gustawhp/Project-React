@@ -1,0 +1,17 @@
+.sectionOffer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1250px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .sectionOffer {
+    height: auto;
+  }
+}

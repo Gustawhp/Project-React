@@ -1,0 +1,51 @@
+.wrapperModal {
+  align-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.imageModal {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.closeImg {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 64px;
+  position: fixed;
+  right: 64px;
+  top: 36px;
+}
+
+.nextImage,
+.prevousImage {
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 64px;
+  height: 64px;
+  line-height: 64px;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  width: 64px;
+}
+
+.nextImage {
+  right: 15%;
+}
+
+.prevousImage {
+  left: 15%;
+}

@@ -1,0 +1,43 @@
+import img1 from '../../../../Assets/Foto/img1.jpg';
+import img2 from '../../../../Assets/Foto/img2.jpg';
+import img3 from '../../../../Assets/Foto/img3.jpg';
+import img4 from '../../../../Assets/Foto/img4.jpg';
+import img5 from '../../../../Assets/Foto/img5.jpg';
+import img6 from '../../../../Assets/Foto/img6.jpg';
+import img7 from '../../../../Assets/Foto/img7.jpg';
+import img8 from '../../../../Assets/Foto/img8.jpg';
+import img9 from '../../../../Assets/Foto/img9.jpg';
+import img10 from '../../../../Assets/Foto/img10.jpg';
+import img11 from '../../../../Assets/Foto/img11.jpg';
+import img12 from '../../../../Assets/Foto/img12.jpg';
+import img13 from '../../../../Assets/Foto/img13.jpg';
+import img14 from '../../../../Assets/Foto/img14.jpg';
+import img15 from '../../../../Assets/Foto/img15.jpg';
+import img16 from '../../../../Assets/Foto/img16.jpg';
+import img17 from '../../../../Assets/Foto/img17.jpg';
+import img18 from '../../../../Assets/Foto/img18.jpg';
+import img19 from '../../../../Assets/Foto/img19.jpg';
+import img20 from '../../../../Assets/Foto/img20.jpg';
+
+export const galleryData = [
+  { image: img1 },
+  { image: img2 },
+  { image: img3 },
+  { image: img4 },
+  { image: img5 },
+  { image: img6 },
+  { image: img7 },
+  { image: img8 },
+  { image: img9 },
+  { image: img10 },
+  { image: img11 },
+  { image: img12 },
+  { image: img13 },
+  { image: img14 },
+  { image: img15 },
+  { image: img16 },
+  { image: img17 },
+  { image: img18 },
+  { image: img19 },
+  { image: img20 },
+];

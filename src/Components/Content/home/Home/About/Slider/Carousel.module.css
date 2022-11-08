@@ -1,0 +1,40 @@
+.carousel {
+  display: flex;
+  height: 500px;
+  width: 500px;
+}
+.carousel_wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.carouselCard {
+  display: flex;
+  flex: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.8);
+  transition: 0.5s ease-in-out;
+}
+
+.carouselCardActive {
+  opacity: 1;
+  transform: scale(1);
+  pointer-events: visible;
+}
+
+@media (max-width: 1000px) {
+  .carousel {
+    height: 100%;
+    margin: 0 auto;
+    max-height: 500px;
+    max-width: 500px;
+    width: 100%;
+  }
+}
